@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+header.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header.hero h1 {
+    font-size: 3rem;
+}
+
+header.hero p.lead {
+    font-size: 1.5rem;
+}
+
+section#about {
+    padding: 60px 0;
+}
+
+section#projects {
+    padding: 60px 0;
+}
+
+section#projects .card {
+    margin-bottom: 30px;
+}
+
+section#experience {
+    padding: 60px 0;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background: #007bff;
+    left: -5px;
+    top: 0;
+    border-radius: 6px;
+}
+
+section#contact {
+    padding: 60px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
